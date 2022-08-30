@@ -9,18 +9,18 @@ go 1.16
 replace golang.org/x/crypto => github.com/cert-manager/crypto v0.0.0-20210409161129-d4c19753215a
 
 require (
-	github.com/Azure/azure-sdk-for-go v43.0.0+incompatible
-	github.com/Azure/go-autorest/autorest v0.11.12
-	github.com/Azure/go-autorest/autorest/adal v0.9.5
-	github.com/Azure/go-autorest/autorest/to v0.2.0
+	github.com/Azure/azure-sdk-for-go v56.3.0+incompatible
+	github.com/Azure/go-autorest/autorest v0.11.24
+	github.com/Azure/go-autorest/autorest/adal v0.9.18
+	github.com/Azure/go-autorest/autorest/to v0.4.0
 	github.com/Azure/go-autorest/autorest/validation v0.1.0 // indirect
 	github.com/Venafi/vcert/v4 v4.13.1
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v1.1.0
-	github.com/aws/aws-sdk-go v1.34.30
+	github.com/aws/aws-sdk-go v1.43.16
 	github.com/cloudflare/cloudflare-go v0.13.2
 	github.com/cpu/goacmedns v0.0.3
 	github.com/digitalocean/godo v1.44.0
-	github.com/go-logr/logr v0.4.0
+	github.com/go-logr/logr v1.2.2
 	github.com/google/gofuzz v1.2.0
 	github.com/googleapis/gnostic v0.5.5
 	github.com/hashicorp/vault/api v1.0.4
@@ -30,40 +30,40 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/munnerz/crd-schema-fuzz v1.0.0
 	github.com/onsi/ginkgo v1.16.4
-	github.com/onsi/gomega v1.14.0
+	github.com/onsi/gomega v1.17.0
 	github.com/pavel-v-chernykh/keystore-go v2.1.0+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.11.0
+	github.com/prometheus/client_golang v1.12.1
 	github.com/sergi/go-diff v1.1.0
 	github.com/smartystreets/assertions v1.2.0 // indirect
-	github.com/spf13/cobra v1.1.3
+	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
-	golang.org/x/net v0.0.0-20210428140749-89ef3d95e781
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	github.com/stretchr/testify v1.7.2
+	go.opentelemetry.io/otel/internal/metric v0.27.0 // indirect
+	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
+	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
+	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
+	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
 	gomodules.xyz/jsonpatch/v2 v2.2.0
-	google.golang.org/api v0.20.0
-	helm.sh/helm/v3 v3.6.2
-	k8s.io/api v0.21.2
-	k8s.io/apiextensions-apiserver v0.21.2
-	k8s.io/apimachinery v0.21.2
-	k8s.io/apiserver v0.21.2
-	k8s.io/cli-runtime v0.21.1
-	k8s.io/client-go v0.21.2
-	k8s.io/code-generator v0.21.2
-	k8s.io/component-base v0.21.2
-	k8s.io/klog/v2 v2.8.0
+	google.golang.org/api v0.61.0
+	helm.sh/helm/v3 v3.9.4
+	k8s.io/api v0.24.2
+	k8s.io/apiextensions-apiserver v0.24.2
+	k8s.io/apimachinery v0.24.2
+	k8s.io/apiserver v0.24.2
+	k8s.io/cli-runtime v0.24.2
+	k8s.io/client-go v0.24.2
+	k8s.io/code-generator v0.24.2
+	k8s.io/component-base v0.24.2
+	k8s.io/klog/v2 v2.60.1
 	k8s.io/kube-aggregator v0.21.0
-	k8s.io/kube-openapi v0.0.0-20210305001622-591a79e4bda7
-	k8s.io/kubectl v0.21.1
-	k8s.io/utils v0.0.0-20210527160623-6fdb442a123b
-	rsc.io/letsencrypt v0.0.3 // indirect
+	k8s.io/kube-openapi v0.0.0-20220627174259-011e075b9cb8
+	k8s.io/kubectl v0.24.2
+	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/controller-runtime v0.9.2
 	sigs.k8s.io/controller-tools v0.6.0
 	sigs.k8s.io/gateway-api v0.3.0
-	sigs.k8s.io/yaml v1.2.0
+	sigs.k8s.io/yaml v1.3.0
 	software.sslmate.com/src/go-pkcs12 v0.0.0-20200830195227-52f69702a001
 )
 
